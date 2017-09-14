@@ -1,8 +1,11 @@
 $(() =>{
-    /*$(document).ready(function(){
-        var msg = window.prompt("Write your name", "Name");
-        alert(msg);
-        })*/
+    $(document).ready(function(){
+        var msg = prompt("Write your player name", "Name");
+        if(msg !== null){
+            msg = msg.toUpperCase();
+            document.getElementById('player').innerHTML = msg + "'S" + " SCORE " + ":";
+        }
+    })
     let playerScore = document.getElementById('number');
      playerScore = parseInt("0");
     
@@ -427,6 +430,12 @@ $('.fiftyVI').click(function() {
     }
 })
 });
+/*function click() {
+    butClicks = 0;
+    
+}
+}*/
+
 
 
 
