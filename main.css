@@ -3,6 +3,11 @@ html{
    /*background-color: rgba(63, 70, 74, 0.69)*/
    background: radial-gradient(#BCC2C4, #4890B3, #222424);
 }
+#rules{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
 @keyframes changer{
     from { color: white;}
     to {color: rgba(246,200,18,1); }

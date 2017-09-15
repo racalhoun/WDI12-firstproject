@@ -1,10 +1,23 @@
 $(() =>{
+    //<---window.open("Gameplay.txt");--> will open another browser window
+    $('#rules').on('click', function(){
+        $('#rules').hide();  
+    })
+   
     $(document).ready(function(){
         var msg = prompt("Write your player name", "Name");
         if(msg !== null){
             msg = msg.toUpperCase();
             document.getElementById('player').innerHTML = msg + "'S" + " SCORE " + ":";
         }
+    })
+    //Daily Double
+    let count = 0;
+    $('button.click').click(function(){
+    count++;
+    if(count === 7 || count === 22){
+        console.log(count);
+    }
     })
     
    

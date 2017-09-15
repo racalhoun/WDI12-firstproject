@@ -1,5 +1,15 @@
-                    Jeopardy!
+                                              Jeopardy!
+                                               -RULES-
 1- Choose one of five questions in six categories
- -Questions can only be chosen once and do not     	have to be in any order.
-
- -  
+ -Questions can only be chosen once and do not have to be in any order.
+ -If the question is answered correctly the value of the question will be added to the players score.
+ -If the question is answered incorrectly the value of the question will be subtracted from the players score.
+2-A Daily Double will appear at random. 
+ -It’s value is twice the value of the question chosen. 
+ -If answered correctly it will double the value and add that product to the players score. 
+ =If answered incorrectly it will double the value and subtract the quotient from the players score.
+3- When all questions on the board have been answered Final Jeopardy will begin.
+ -Final Jeopardy will consist of one question and will determine the winner of the game. 
+ -Players will place a wager on their answer. Their wagers must be between $0 and their current score.
+ -Upon assesment of their answers the value of their wagers will be added or subtracted from their current score.
+ -The player with the largest score will be declared the winner of the game. 

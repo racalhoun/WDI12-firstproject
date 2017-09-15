@@ -1,0 +1,13 @@
+/*body,html{
+    background-size:cover;
+        background-image: url('/Users/robertcalhoun/Desktop/Game-Jeopardy/DD/Jeopardy!_Season_26_Daily_Double_Logo.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+*/
+html{
+    background-color: red;
+}
+
+
