@@ -6,6 +6,8 @@ $(() =>{
             document.getElementById('player').innerHTML = msg + "'S" + " SCORE " + ":";
         }
     })
+    
+   
     let playerScore = document.getElementById('number');
      playerScore = parseInt("0");
     
@@ -18,7 +20,7 @@ $('.tenI').click(function() {
         playerScore += 10; 
          document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Mustang");
          playerScore -= 10;
          document.getElementById('number').innerHTML = playerScore;
     } 
@@ -32,7 +34,7 @@ $('.twentyI').click(function() {
         playerScore += 20;
         document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is NSU");
         playerScore -= 20;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -46,7 +48,7 @@ $('.thirtyI').click(function() {
    playerScore +=30;
    document.getElementById('number').innerHTML = playerScore;
    }else{
-       alert("Wrong answer");
+       alert("The correct answer is Rolls Royce");
        playerScore -= 30;
        document.getElementById('number').innerHTML = playerScore;
    }
@@ -60,7 +62,7 @@ $('.fourtyI').click(function() {
     playerScore +=40;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Pontiac");
         playerScore -= 40;
         document.getElementById('number').innerHTML = playerScore;
     } 
@@ -74,7 +76,7 @@ $('.fiftyI').click(function() {
     playerScore +=50;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Ferrari");
         playerScore -= 50;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -88,7 +90,7 @@ $('.tenII').click(function() {
     playerScore += 10;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Jim Carrey");
         playerScore -= 10;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -102,7 +104,7 @@ $('.twentyII').click(function() {
     playerScore += 20;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Batman");
         playerScore -= 20;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -116,7 +118,7 @@ $('.thirtyII').click(function() {
     playerScore += 30;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is 'The Big Lebowski'");
         playerScore -= 30;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -130,7 +132,7 @@ $('.fourtyII').click(function() {
     playerScore += 40;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is 'Two Lane Blacktop'");
         playerScore -= 40;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -144,7 +146,7 @@ $('.fiftyII').click(function() {
     playerScore += 50;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is 'True Romance'");
         playerScore -= 50;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -158,7 +160,7 @@ $('.tenIII').click(function() {
     playerScore += 10;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is 1969");
         playerScore -= 10;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -172,7 +174,7 @@ $('.twentyIII').click(function() {
     playerScore += 20;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Wilson Pickett");
         playerScore -= 20;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -186,7 +188,7 @@ $('.thirtyIII').click(function() {
     playerScore += 30;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Sundown");
         playerScore -= 30;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -200,7 +202,7 @@ $('.fourtyIII').click(function() {
     playerScore += 40;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Michael Jackson");
         playerScore -= 40;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -214,7 +216,7 @@ $('.fiftyIII').click(function() {
     playerScore += 50;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Amy Winehouse");
         playerScore -= 50;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -228,7 +230,7 @@ $('.tenIV').click(function() {
     playerScore += 10;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Springfield, Massachusetts");
         playerScore -= 10;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -242,7 +244,7 @@ $('.twentyIV').click(function() {
     playerScore += 20;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Frankenstien");
         playerScore -= 20;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -256,7 +258,7 @@ $('.thirtyIV').click(function() {
     playerScore += 30;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Londonderry Township");
         playerScore -= 30;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -270,7 +272,7 @@ $('.fourtyIV').click(function() {
     playerScore += 40;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Buford");
         playerScore -= 40;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -284,7 +286,7 @@ $('.fiftyIV').click(function() {
     playerScore += 50;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Chicago");
         playerScore -= 50;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -298,7 +300,7 @@ $('.tenV').click(function() {
     playerScore += 10;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Lawn Darts");
         playerScore -= 10;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -312,7 +314,7 @@ $('.twentyV').click(function() {
     playerScore += 20;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Marco Polo");
         playerScore -= 20;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -326,7 +328,7 @@ $('.thirtyV').click(function() {
     playerScore += 30;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Clue");
         playerScore -= 30;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -340,7 +342,7 @@ $('.fourtyV').click(function() {
     playerScore += 40;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Back Jack");
         playerScore -= 40;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -354,7 +356,7 @@ $('.fiftyV').click(function() {
     playerScore += 50;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Chicken");
         playerScore -= 50;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -368,7 +370,7 @@ $('.tenVI').click(function() {
     playerScore += 10;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is France");
         playerScore -= 10;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -382,7 +384,7 @@ $('.twentyVI').click(function() {
     playerScore += 20;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Honolulu");
         playerScore -= 20;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -396,7 +398,7 @@ $('.thirtyVI').click(function() {
     playerScore +=30;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Chile");
         playerScore -= 30;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -410,7 +412,7 @@ $('.fourtyVI').click(function() {
     playerScore += 40;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Morocco");
         playerScore -= 40;
         document.getElementById('number').innerHTML = playerScore;
     }
@@ -424,17 +426,22 @@ $('.fiftyVI').click(function() {
     playerScore += 50;
     document.getElementById('number').innerHTML = playerScore;
     }else{
-        alert("Wrong answer");
+        alert("The correct answer is Russia");
         playerScore -= 50;
         document.getElementById('number').innerHTML = playerScore;
     }
 })
+
+
 });
-/*function click() {
-    butClicks = 0;
-    
-}
-}*/
+   
+
+
+
+
+
+
+
 
 
 
